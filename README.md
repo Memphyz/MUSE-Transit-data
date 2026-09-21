@@ -45,7 +45,7 @@ O Brasil inteiro soma poucos megabytes compactados.
 
 ## Como é atualizado
 
-- **Toda segunda-feira às 03:00 (Brasília)**, um workflow do GitHub Actions no
+- **Todo dia às 05:00 (Brasília)**, um workflow do GitHub Actions no
   repositório do MUSE gera os pacotes a partir das fontes e troca os anexos desta
   release. Ele também pode ser rodado à mão.
 - O workflow escreve aqui com um token *fine-grained* restrito a este
@@ -76,7 +76,7 @@ app continua com o que tem.
 - **Não arquive o repositório.** Repositório arquivado não aceita anexo novo, e
   os dados param de atualizar.
 - **Não coloque os pacotes no git.** Eles vivem só como anexos da release, que o
-  workflow troca toda semana.
+  workflow troca todo dia.
 
 ---
 
