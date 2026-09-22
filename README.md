@@ -10,13 +10,6 @@ repositório privado, e o GitHub não entrega anexo de release privada sem login
 Como o app baixa sem login, o que ele baixa precisa morar num repositório
 público. É para isso que este existe.
 
-> Este repositório se chamava `MUSE-Transit-data` e foi renomeado em 2026-09-21,
-> quando passou a guardar também o firmware. O GitHub redireciona o nome antigo,
-> e os apps instalados antes de 2026-09-22 dependem desse redirecionamento:
-> **nunca crie um repositório chamado `Memphyz/MUSE-Transit-data`.** Criar o nome
-> antigo mata o redirecionamento e o download desses apps, sem erro nenhum — só
-> 404.
-
 ---
 
 ## As duas releases
@@ -115,9 +108,8 @@ rede, o app continua com o que tem.
   rodada seguinte — mas a `offline-data` também guarda o `regions.json.gz`, do
   qual a rodada de vias depende para não ir ao IBGE. Rode **alertas antes de
   vias** para se recuperar.
-- **Não renomeie este repositório de novo** sem antes acertar o
-  `PublicReleases.kt` no MUSE e publicar um app novo. E veja o aviso sobre o nome
-  antigo, no topo.
+- **Não renomeie este repositório** sem antes acertar o `PublicReleases.kt` no
+  MUSE e publicar um app novo: o endereço fica gravado no app instalado.
 - **Não arquive o repositório.** Repositório arquivado não aceita anexo novo, e
   tudo para de atualizar.
 - **Não coloque os pacotes no git.** Eles vivem só como anexos das releases, que
